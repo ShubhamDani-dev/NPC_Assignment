@@ -57,7 +57,7 @@ class PMM(ScriptStrategyBase):
     min_position_size = 0.005
     stop_loss_pct = -0.05
     emergency_exit_pct = -0.07
-    max_inventory_value = 150000
+    max_inventory_value = 1150000
     
     # Initialize candles
     candles = CandlesFactory.get_candle(
